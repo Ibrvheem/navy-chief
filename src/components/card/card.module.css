@@ -1,5 +1,5 @@
 .card {
-  width: 18%;
+  width: 19%;
   height: 20rem;
   border-radius: 3rem;
   background-color: rgba(255, 255, 255, 0.5);
@@ -8,6 +8,7 @@
   transition: all ease-in-out 0.5s;
   cursor: pointer;
   text-align: center;
+  padding: 2rem;
 }
 
 .card img {
