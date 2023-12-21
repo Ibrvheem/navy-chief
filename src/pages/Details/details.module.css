@@ -4,17 +4,6 @@
 .details {
   height: 100vh;
 }
-.details .left {
-  width: 40%;
-}
-
-.details .right {
-  width: 60%;
-  height: 95vh;
-  background-size: cover;
-  background-position: right bottom;
-  background-image: url("./images/chief_navy.png");
-}
 .details {
   padding-bottom: 5rem;
 }

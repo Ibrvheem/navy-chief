@@ -11,10 +11,10 @@ function App() {
   const location = useLocation();
   return (
     <div>
-      <AnimatePresence initial={false} mode="wait">
+      <AnimatePresence initial={true} mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route path="/" exact element={<Home />} />
-          <Route path="/details" element={<Details />} />
+          <Route path="/details/:id" element={<Details />} />
         </Routes>{" "}
       </AnimatePresence>
     </div>

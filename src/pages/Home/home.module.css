@@ -2,7 +2,6 @@
   background-image: url("./images/chief_navy.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 95vh;
 }
 h1 {
   font-size: 9rem;
@@ -19,4 +18,22 @@ p {
 }
 .writing {
   width: 50%;
+}
+
+.details h4 {
+  font-family: "Perpetua Light";
+  font-size: 3rem;
+}
+.details p {
+  color: black;
+  font-family: "Lato";
+  font-size: 2.4rem;
+  padding: 4rem 0rem;
+  line-height: 1.5;
+}
+
+.details h2 {
+  font-family: "Perpetua Light";
+  font-size: 3rem;
+  color: white;
 }
