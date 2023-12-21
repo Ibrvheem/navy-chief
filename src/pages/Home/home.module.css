@@ -1,0 +1,43 @@
+.home {
+  background-image: url("./images/chief_navy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+}
+h1 {
+  font-size: 9rem;
+  font-weight: 100;
+  color: #d1c62a;
+}
+p {
+  font-size: 2.4rem;
+  color: white;
+  font-family: "Monrope";
+}
+.topContent {
+  margin-bottom: 10rem;
+}
+.writing {
+  width: 50%;
+}
+.details {
+  padding: 18rem 2rem;
+  padding-bottom: 5rem;
+}
+.details h4 {
+  font-family: "Perpetua Light";
+  font-size: 3rem;
+}
+.details p {
+  color: black;
+  font-family: "Lato";
+  font-size: 2.4rem;
+  padding: 4rem 0rem;
+  line-height: 1.5;
+}
+
+.details h2 {
+  font-family: "Perpetua Light";
+  font-size: 3rem;
+  color: white;
+}
