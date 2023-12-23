@@ -32,6 +32,11 @@ function Details() {
     },
   };
 
+  const desc = selectedCard.description;
+
+  // Split the text into words
+  const descSplit = desc.split(" ");
+
   // Variant for each letter in a word
   const letterVariants = {
     initial: { opacity: 0, y: 20 },
@@ -47,8 +52,17 @@ function Details() {
         <div style={{ height: "100%", flexDirection: "column", flexWrap: "nowrap" }} className="justify-space-btw">
           <div style={{ height: "100%", width: "100%", display: "flex" }} className={styles.details}>
             <motion.div style={{ height: "100%", width: "540px", padding: "1rem", opacity: 0 }} animate={{ opacity: 1 }} transition={transition}>
-              <motion.h4>{selectedCard.title}</motion.h4>
-              <p style={{ overflow: "scroll", height: "55vh" }}>{selectedCard.description}</p>
+              <div>
+                <motion.h4>{selectedCard.title}</motion.h4>
+                <motion.p variants={textVariants} initial="initial" animate="animate" style={{ overflow: "scroll", height: "55vh" }}>
+                  {" "}
+                  {desc.split("").map((letter, index) => (
+                    <motion.span key={index} variants={letterVariants} style={{ fontFamily: "Lato" }}>
+                      {letter}
+                    </motion.span>
+                  ))}
+                </motion.p>
+              </div>
             </motion.div>
             <div>
               <motion.h2 variants={textVariants} initial="initial" animate="animate" style={{ color: "white", fontSize: "7rem", fontWeight: 100, padding: "0rem 2rem" }}>
@@ -65,28 +79,33 @@ function Details() {
               </motion.h2>
             </div>
           </div>
-          <motion.div
-            className={`${styles.bottomContent} justify-space-btw align-end`}
-            style={{ marginLeft: "auto", width: "65%", padding: "1rem", opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={transition}
-          >
-            {cardData.map((data) => {
-              console.log(`/details${data.link}`);
+          <div className="justify-space-btw align-end">
+            <Link to="/">
+              <div className={`${styles.button} align-center justify-center`}>BACK TO HOME</div>
+            </Link>
+            <motion.div
+              className={`${styles.bottomContent} justify-space-btw align-end`}
+              style={{ marginLeft: "auto", width: "65%", padding: "1rem", opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={transition}
+            >
+              {cardData.map((data) => {
+                console.log(`/details${data.link}`);
 
-              return (
-                <Card
-                  path={location.pathname}
-                  link={`/details${data.link}`}
-                  image={data.image}
-                  text={data.name}
-                  handleClick={() => {
-                    navigate(`/details${data.link}`);
-                  }}
-                />
-              );
-            })}
-          </motion.div>
+                return (
+                  <Card
+                    path={location.pathname}
+                    link={`/details${data.link}`}
+                    image={data.image}
+                    text={data.name}
+                    handleClick={() => {
+                      navigate(`/details${data.link}`);
+                    }}
+                  />
+                );
+              })}
+            </motion.div>
+          </div>
         </div>
       </div>
     </motion.div>

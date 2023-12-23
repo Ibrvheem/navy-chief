@@ -3,40 +3,40 @@ export const cardData = [
     name: "BIODATA",
     image: "info.svg",
     link: "/biodata",
-    title: "BIODATA OF THE CHEIF OF NAVAL STAFF",
+    title: "BIODATA OF THE CHIEF OF NAVAL STAFF",
     description:
-      "Vice Admiral Emmanuel Ikechukwu Ogalla was born on 20 December 1968 in Enugu Ezike Igbo Eze north LGA Enugu State, Nigeria. He obtained the WASC from the NMS Zaria in June 1987 where he graduated as the best boy in Sciences. He had A1 in all subjects except English language. He is a member of the 39 Regular Course Nigerian Defence Academy Kaduna graduated with a BSc in Maths and was awarded sword of honour as the best naval cadet in his course.",
+      "Vice Admiral Emmanuel Ikechukwu Ogalla, born on December 20, 1968, in Enugu Ezike Igbo Eze North LGA, Enugu State, Nigeria, is a distinguished Nigerian national. He shares his life with his wife, Mrs. Ijeoma Ogalla, and they are proud parents to two children. Vice Admiral Ogalla is deeply committed to his family and balances his professional endeavors with personal interests. His hobbies include engaging in jogging, voracious reading, and an insatiable curiosity for scientific and natural phenomena. Additionally, he actively participates in esteemed professional associations such as the Nigerian Hydrographic Society, Nigerian Institute of Management, and the International Earth Rotation Services.",
   },
   {
     name: "EDUCATIONAL HISTORY",
     image: "target.svg",
     link: "/education",
-    title: "EDUCATIONAL HISTORY OF THE CHEIF OF NAVAL STAFF",
+    title: "EDUCATIONAL HISTORY OF THE CHIEF OF NAVAL STAFF",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident odit assumenda reiciendis veniam itaque cumque deserunt, rerum similique quos alias consequatur commodi totam nemo sunt dolorem. Eos consequatur amet repellat, quod provident recusandae quaerat necessitatibus suscipit animi aperiam autem quam est aut fugiat illo corrupti odio sint perferendis ratione pariatur?",
+      "Vice Admiral Emmanuel Ikechukwu Ogalla's educational journey epitomizes a pursuit of excellence and a relentless dedication to academic and professional advancement. He commenced his academic prowess at the prestigious Nigerian Military School in Zaria, graduating in June 1987 with the West African Senior Certificate (WASC). His outstanding performance in Sciences distinguished him as the top achiever, excelling in all subjects barring English language. Subsequently, he pursued the 39 Regular Course at the Nigerian Defence Academy in Kaduna, culminating in the attainment of a Bachelor of Science degree in Mathematics. His remarkable achievements were further recognized with the presentation of the Sword of Honour, an accolade bestowed upon him as the best naval cadet in his course. Additionally, Vice Admiral Ogalla enriched his knowledge through diverse professional courses, including training at esteemed institutions such as the National Hydrographic School in India and the Armed Forces Command and Staff College in Jaji. His pursuit of academic excellence culminated in a Master of Science in Strategic Studies from the University of Ibadan, solidifying his commitment to continuous learning and professional development.",
   },
   {
     name: "PERSONAL LIFE",
     image: "gallery.svg",
     link: "/personal",
-    title: "PERSONAL LIFE OF THE CHEIF OF NAVAL STAFF",
+    title: "PERSONAL LIFE OF THE CHIEF OF NAVAL STAFF",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod debitis sed mollitia sit eaque soluta, placeat perferendis, numquam accusamus deserunt id error officia dolore fuga tempore amet? Quas vitae culpa a cum consectetur eveniet officia, nam, aperiam atque minus eius. Quod at aperiam animi ab ex ullam assumenda fuga. Ullam non incidunt voluptatem molestias nobis labore ipsa hic rem temporibus, distinctio voluptatum molestiae officiis soluta reprehenderit minus sint recusandae architecto quo inventore esse veniam voluptate modi! Asperiores exercitationem quia excepturi praesentium alias, autem voluptate dolor non accusantium nemo magni atque magnam, ipsa temporibus quo. Exercitationem adipisci voluptatibus aliquid qui, a ipsa voluptatem recusandae, nisi voluptas laudantium ipsam accusamus excepturi, illum pariatur vitae.",
+      "Vice Admiral Ogalla's personal life reflects a harmonious blend of family dedication, intellectual curiosity, and multifaceted engagement. Embodying the essence of a devoted family man, he cherishes his marriage to Mrs. Ijeoma Ogalla and their loving bond that has blossomed into a family of four. Beyond his familial commitments, Vice Admiral Ogalla indulges in various recreational activities, including regular jogging to maintain physical fitness. His passion for knowledge extends to his love for reading and delving into the intricacies of scientific and natural discoveries. Furthermore, he actively participates in esteemed professional affiliations, contributing to and engaging with the Nigerian Hydrographic Society, Nigerian Institute of Management, and the International Earth Rotation Services.",
   },
   {
     name: "PROFESSIONAL AFFILIATIONS",
     image: "connections.svg",
     link: "/professional",
-    title: "PROFESSIONAL AFFILAITIONS OF THE CHEIF OF NAVAL STAFF",
+    title: "PROFESSIONAL AFFILAITIONS OF THE CHIEF OF NAVAL STAFF",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quae autem a, aspernatur libero veritatis dignissimos recusandae amet accusamus odio similique commodi nihil molestiae ipsum praesentium! Neque molestias sunt velit ab necessitatibus quia, vero porro ratione veritatis ullam quas ea quae dicta nemo iusto saepe nulla eos voluptatem, voluptate explicabo! Consequatur tenetur ullam illo, magni ratione illum labore consectetur quis dolor ex, harum error exercitationem culpa soluta qui officiis saepe dolorem! Corrupti modi delectus reprehenderit repellendus veritatis in fugit id.",
+      "Vice Admiral Emmanuel Ikechukwu Ogalla's professional journey exemplifies a profound commitment to the Nigerian Navy and the advancement of naval operations, education, and strategic studies. Throughout his illustrious career, he has held diverse roles, demonstrating exemplary leadership, and contributing significantly to various facets of the Nigerian Navy. From his service on multiple ships to his pivotal roles at the Nigerian Navy Hydrographic School and the Nigerian Navy Hydrographic Office, Vice Admiral Ogalla has consistently displayed unparalleled dedication and expertise. He facilitated collaborations with esteemed international organizations, contributing to advancements in survey equipment and aligning educational curricula with global standards. Moreover, his strategic contributions at the Armed Forces Command and Staff College and the National Defence College have significantly enhanced research capabilities and fostered international relations, exemplifying his commitment to continuous improvement and excellence in the field.",
   },
   {
     name: "HONORS",
     image: "honors.svg",
     link: "/honors",
-    title: "HONORS OF THE CHEIF OF NAVAL STAFF",
+    title: "HONORS OF THE CHIEF OF NAVAL STAFF",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus vel, ea sed eos alias similique repudiandae facere in voluptate minus exercitationem veniam debitis commodi soluta quod cum deleniti nobis quos perspiciatis! Nobis, odio dolorum ipsa dolorem iure dolor cumque totam quae eos, quo deleniti repudiandae animi et magni enim temporibus doloribus, consequatur voluptates architecto perspiciatis. Accusamus laudantium ipsam fugit ullam, dolor consequatur nobis at ducimus fugiat culpa veritatis nihil maxime totam, doloribus possimus est libero maiores animi sapiente. Perspiciatis autem eligendi ab consequuntur. Ipsam eveniet nemo laborum voluptate ea corrupti commodi aliquam vero. Quasi iure provident sunt eaque quas quibusdam amet aliquid rem laboriosam. Ratione nemo provident temporibus voluptate nobis quia, quae autem aspernatur, natus at eaque tenetur nulla enim aliquid dolore et corporis explicabo repellat? Libero quod provident nam consectetur, hic magni ipsa debitis impedit reprehenderit alias sequi nisi quibusdam dolorum dolor neque ducimus illum inventore eaque eveniet non.",
+      "Vice Admiral Emmanuel Ikechukwu Ogalla's outstanding contributions and unwavering dedication have been recognized and honored with the most prestigious accolades. His exemplary service to the Nigerian Navy has been distinguished with the Forces Service Star (FSS), Meritorious Service Star (MSS), Distinguished Service Star (DSS), and Grand Service Star (GSS). These honors stand as a testament to his exceptional leadership, meritorious service, and remarkable contributions to the naval and defense sectors. Vice Admiral Ogalla's decorated career epitomizes the epitome of dedication, expertise, and relentless commitment to the enhancement of Nigeria's naval capabilities and strategic prowess.",
   },
 ];

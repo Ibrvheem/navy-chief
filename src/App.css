@@ -5,8 +5,14 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "Monrope";
+  font-family: "Manrope";
   src: url("/fonts/Manrope-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ManropeBold";
+  src: url("/fonts/Manrope-Bold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -27,6 +33,9 @@ html {
   font-size: 62.5%;
 }
 body {
+}
+a {
+  all: unset;
 }
 .container {
   padding: 5rem;

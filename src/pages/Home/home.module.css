@@ -1,5 +1,5 @@
 .home {
-  background-image: url("./images/chief_navy.png");
+  background-image: url("/images/chief_navy.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -11,7 +11,23 @@ h1 {
 p {
   font-size: 2.4rem;
   color: white;
-  font-family: "Monrope";
+  font-family: "Manrope";
+  line-height: 1.5;
+}
+.button {
+  height: 6rem;
+  width: 18rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-family: "ManropeBold";
+  border: 2px solid black;
+  border-radius: 1rem;
+  font-weight: 700;
+  transition: background-color 0.5s ease-in-out;
+}
+.button:hover {
+  background-color: rgba(000, 000, 000, 0.06);
+  transition: background-color 0.5s ease-in-out;
 }
 .topContent {
   margin-bottom: 10rem;
